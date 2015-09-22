@@ -1,12 +1,12 @@
 {
 	"manifest_version": 2,
 
-	"name": "Hello World",
-	"description": "This is my first Chrome extension.",
+	"name": "Ad Tracker",
+	"description": "Tracks user's advertisement watching.",
 	"version": "1.0",
 
 	"browser_action":{
-		"default_icon": "icon.png",
+		"default_icon": "icon.jpg",
 		"default_popup": "popup.html"
 	}
 }
