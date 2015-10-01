@@ -598,6 +598,14 @@ footer .footer-below {
     color: #2c3e50;
 }
 
+.final{
+    border-color: #ff5a5f;
+    border-bottom-color: #e00007;
+    background-color: #ff5a5f;
+    color: #fff;
+    padding: 10px;
+}
+
 @media(min-width:768px) {
     .timeline:before {
         left: 50%;
