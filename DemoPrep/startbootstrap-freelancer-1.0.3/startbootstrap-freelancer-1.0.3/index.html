@@ -365,9 +365,9 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Advert Title</h2>
+                            <h2>TIGO</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
+                            <img src="img/portfolio/advert1.jpg" class="img-responsive img-centered" alt="">
                             <p> Here we can see a brief description of the advert.</p> 
                             <p> Share with your friends and win points!</p>
                             <ul class="list-inline item-details">
@@ -406,10 +406,10 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Advert Title</h2>
+                            <h2>Coomputer Arts</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
-                            <p> Here we can see a brief description of the advert.</p> 
+                            <img src="img/portfolio/advert2.jpg" class="img-responsive img-centered" alt="">
+                            <p> Read what you want!</p> 
                             <p> Share with your friends and win points!</p>
                             <ul class="list-inline item-details">
                                 <li>
@@ -447,10 +447,10 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Advert Title</h2>
+                            <h2>Ikea</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
-                            <p> Here we can see a brief description of the advert.</p> 
+                            <img src="img/portfolio/advert3.jpg" class="img-responsive img-centered" alt="">
+                            <p> Happy Valenteins Day!</p> 
                             <p> Share with your friends and win points!</p>
                             <ul class="list-inline item-details">
                                 <li>
@@ -488,10 +488,10 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Advert Title</h2>
+                            <h2>Oreo</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
-                            <p> Here we can see a brief description of the advert.</p> 
+                            <img src="img/portfolio/advert4.jpg" class="img-responsive img-centered" alt="">
+                            <p> New double lait.</p> 
                             <p> Share with your friends and win points!</p>
                             <ul class="list-inline item-details">
                                 <li>
@@ -529,10 +529,10 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Advert Title</h2>
+                            <h2>Jardiland</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
-                            <p> Here we can see a brief description of the advert.</p> 
+                            <img src="img/portfolio/advert5.jpg" class="img-responsive img-centered" alt="">
+                            <p> Legit Biscuits</p> 
                             <p> Share with your friends and win points!</p>
                             <ul class="list-inline item-details">
                                 <li>
@@ -570,27 +570,104 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Advert Title</h2>
+                            <h2>Intel</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
-                            <p> Here we can see a brief description of the advert.</p> 
+                            <!--<img src="img/portfolio/intel.jpg" class="img-responsive img-centered" alt="">-->
+                            <!--<iframe allowfullscreen="" class="img-centered adVid"  frameborder="0" width="854px" height="480px" margin-left="-300px" src="https://www.youtube.com/embed/yvinbpRQQWk"></iframe>-->
+                            <div class="row" id="pointy">
+                                <div id="player"></div>
+                            </div>
+                            <script src="http://www.youtube.com/player_api"></script>
+
+                            <script>
+    
+                                        // create youtube player
+                                        var player;
+                                        function onYouTubePlayerAPIReady() {
+                                            player = new YT.Player('player', {
+                                              height: '390',
+                                              width: '640',
+                                              videoId: 'yvinbpRQQWk',
+                                              events: {
+                                                'onReady': onPlayerReady,
+                                                'onStateChange': onPlayerStateChange
+                                              }
+                                            });
+                                        }
+
+                                        // autoplay video
+                                        function onPlayerReady(event) {
+                                            event.target.playVideo();
+                                        }
+
+                                        // when video ends
+                                        function onPlayerStateChange(event) {        
+                                            if(event.data === 0) {
+                                                document.getElementById("pointy").innerHTML = '<img src="img/star.jpg" class="img-responsive img-centered points" alt=""><p> 1000pts! </p>';
+                                                
+                                            }
+                                        }
+    
+                            </script>
+
+                            <!--<iframe width="420" height="315" src="https://youtu.be/yvinbpRQQWk"></iframe>   <!--class="img-responsive img-centered"-->
+                            <p> Iternity in Stability</p> 
                             <p> Share with your friends and win points!</p>
                             <ul class="list-inline item-details">
-                                <li>
-                                    <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
-                                </li>
+                                <div class="row stars">
+                                    <div class="col-md-2">
+                                        <i class="fa fa-certificate fa-5x"></i>
+                                        <!--<i class="fa fa-500px fa-4x"></i>-->
+                                    </div>
+                                    <div class="col-md-2">
+                                        <li>
+                                            <i class="fa fa-certificate fa-5x"></i>
+                                        </li>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <li>
+                                            <i class="fa fa-certificate fa-5x"></i>
+                                        </li>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <li>
+                                            <i class="fa fa-certificate fa-5x"></i>
+                                        </li>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <li>
+                                            <i class="fa fa-certificate fa-5x"></i>
+                                        </li>
+                                    </div>
+                                </div>
+
+                                <div class="row stars">
+                                    <div class="col-md-2 ">
+                                        <li>
+                                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                                        </li>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <li>
+                                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                                        </li>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <li>
+                                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                                        </li>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <li>
+                                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                                        </li>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <li>
+                                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                                        </li>
+                                    </div>
+                                </div>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>

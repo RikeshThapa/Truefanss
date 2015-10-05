@@ -482,6 +482,17 @@ footer .footer-below {
     color: #fff;
 }
 
+.stars{
+    color: gold;
+    font: 15px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.adVid{
+    margin-left: -60px;
+}
+
 
 /*Timeline section*/
 
@@ -697,4 +708,10 @@ footer .footer-below {
     .timeline>li.timeline-inverted>.timeline-panel {
         padding: 0 100px 20px 20px;
     }
+}
+
+.points{
+    float: left;
+    max-width: 200px;
+    max-height: 200px;
 }
